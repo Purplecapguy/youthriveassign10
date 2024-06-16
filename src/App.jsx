@@ -1,7 +1,6 @@
 import { useState } from 'react'
+
 import {
-  BrowserRouter,
-  Link,
   Route,
   Routes,
 } from "react-router-dom";
@@ -14,6 +13,7 @@ import Contact from './pages/Contact'
 import Error from './pages/Error';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
+
 
 function App() {
   const [count, setCount] = useState(0)

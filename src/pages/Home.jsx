@@ -3,16 +3,18 @@ import { Image, Video, Transformation } from 'cloudinary-react';
 import { Section1Images, Section2Images, Section3Images, Section4Images, cloudName } from '../cloudImages/cloud';
 import './Home.css' 
 
+
+
 const Home = () => {
   return (
     <div>
         <div className='navDiv'>
           <div className='navinner'>
-            <div className='navinner1'>
+            <div>
               <p className='p1'>New Arrival</p>
               <h2 className='h2'>Discover Our <br></br> New Collection</h2>
-              <p className='p2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis</p>
-              <button>Buy Now</button>
+              <p className='p2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br></br> elit tellus, luctus nec ullamcorper mattis</p>
+              <button className='bt'>Buy Now</button>
             </div> 
           </div>
         </div>
@@ -35,67 +37,70 @@ const Home = () => {
           <div className='galleryimage'>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.syltherine}></Image>
-              <p>Syltherine</p>
-              <p><span>Stylish cafe chair</span></p>
-              <p>Rp 2.500.000 <span>Rp 3.500.000</span></p>
+              <p className='img2name'>Syltherine</p>
+              <p><span span className='span1'>Stylish cafe chair</span></p>
+              <p className='img2price'>Rp 2.500.000 <span className='span2'>Rp 3.500.000</span></p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.leviosa}></Image>
-              <p>Laviosa</p>
-              <p><span>Stylish cafe chair</span></p>
-              <p>Rp 2.500.000</p>
+              <p className='img2name'>Laviosa</p>
+              <p><span className='span1'>Stylish cafe chair</span></p>
+              <p className='img2price'>Rp 2.500.000</p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.lolito}></Image>
-              <p>Lolito</p>
-              <p><span>Luxury big sofa</span></p>
-              <p>Rp 7.000.000 <span>Rp 14.000.000</span></p>
+              <p className='img2name'>Lolito</p>
+              <p><span className='span1'>Luxury big sofa</span></p>
+              <p className='img2price'>Rp 7.000.000 <span span className='span2'>Rp 14.000.000</span></p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.respira}></Image>
-              <p>Respira</p>
-              <p><span>Outdoor bar table and stool</span></p>
-              <p>Rp 500.000</p>
+              <p className='img2name'>Respira</p>
+              <p><span className='span1'>Outdoor bar table and stool</span></p>
+              <p className='img2price'>Rp 500.000</p>
             </div>
           </div>
           <div className='galleryimage'>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.grifo}></Image>
-              <p>Grifo</p>
-              <p><span>Night lamp</span></p>
-              <p>Rp 1.500.000</p>
+              <p className='img2name'>Grifo</p>
+              <p><span className='span1'>Night lamp</span></p>
+              <p className='img2price'>Rp 1.500.000</p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.muggo}></Image>
-              <p>Muggo</p>
-              <p><span>Small mug</span></p>
-              <p>Rp 150.000</p>
+              <p className='img2name'>Muggo</p>
+              <p><span className='span1'>Small mug</span></p>
+              <p className='img2price'>Rp 150.000</p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.pingky}></Image>
-              <p>Pingky</p>
-              <p><span>Cute bed set</span></p>
-              <p>Rp 7.000.000 <span>Rp 14.000.000</span></p>
+              <p className='img2name'>Pingky</p>
+              <p><span className='span1'>Cute bed set</span></p>
+              <p className='img2price'>Rp 7.000.000 <span span className='span2'>Rp 14.000.000</span></p>
             </div>
             <div className='img2'>
               <Image cloudName={cloudName} publicId={Section2Images.potty}></Image>
-              <p>Potty</p>
-              <p><span>Minimalist flower pot</span></p>
-              <p>Rp 500.000</p>
+              <p className='img2name'>Potty</p>
+              <p><span className='span1'>Minimalist flower pot</span></p>
+              <p className='img2price'>Rp 500.000</p>
             </div>
           </div>
-          <button>Show More</button>
+          <button className='bt2'>Show More</button>
         </section>
-        <section>
-          <div>
-
+        <section className='carousel'>
+          <div className='carousel1'>
+            <p>50+ Beautiful rooms inspiration</p>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <button>Explore More</button>
           </div>
-          <div>
+          <div className='carousel2'>
           <Image cloudName={cloudName} publicId={Section3Images.innerPeace}></Image>
           <Image cloudName={cloudName} publicId={Section3Images.innerPeace1}></Image>
+          <Image cloudName={cloudName} publicId={Section3Images.innerPreace3}></Image>
           </div>
         </section>
-        <section>
+        <section className='sect3'>
           <p>share your setup with</p>
           <h2>#FuniroFurniture</h2>
           <div>

@@ -19,7 +19,8 @@ export const Section2Images = {
 
 export const Section3Images = {
     innerPeace: "https://res.cloudinary.com/dneshezhq/image/upload/f_auto,q_auto/v1/ecommerce/browse%20the%20range/zg5hbezt4d2oczw13jad",
-    innerPeace1: "https://res.cloudinary.com/dneshezhq/image/upload/f_auto,q_auto/v1/ecommerce/browse%20the%20range/iqodcafhglalaadznjvc"
+    innerPeace1: "https://res.cloudinary.com/dneshezhq/image/upload/f_auto,q_auto/v1/ecommerce/browse%20the%20range/iqodcafhglalaadznjvc",
+    innerPreace3: "https://res.cloudinary.com/dneshezhq/image/upload/f_auto,q_auto/v1/ecommerce/browse%20the%20range/qd4gu8awlqbjeeqmoghq"
 }
 
 export const Section4Images = {
